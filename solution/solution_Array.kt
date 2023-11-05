@@ -9,8 +9,8 @@ class Solution {
                     winstreak += 1
            }        
             else{
-                curr = opponent
-                winstreak = 1
+                  curr = opponent
+                  winstreak = 1
             }
                
             if( winstreak == k || curr == maxElement ){
